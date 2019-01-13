@@ -1,10 +1,18 @@
 export class MainController {
   constructor () {
     'ngInject';
-
+    console.log("Constructor");
   }
 
-   postMesssage(){
-
-  }
+    postMessage()
+    {
+      console.log("Posted Message!!!?!");
+    }
 }
+
+
+
+
+
+
+
