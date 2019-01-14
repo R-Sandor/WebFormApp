@@ -1,7 +1,9 @@
 {
   "name": "webFormApp",
   "version": "0.0.0",
-  "dependencies": {},
+  "dependencies": {
+    "body-parser": "^1.18.3"
+  },
   "scripts": {
     "test": "gulp test"
   },
