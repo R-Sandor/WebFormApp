@@ -3,6 +3,12 @@ var app = express();
 var bodyParser = require('body-parser');
 app.use(bodyParser.json());
 
+app.use(function(req, res, next){
+  res.header("Access-Control-Allow-Origin", "*");
+  res.header("Access-Control-Allow-headers", "Content-Type, Authorization");
+  next();
+})
+
 app.post('/api/message', function (req, res) {
     console.log(req.body);
     res.status(200);
