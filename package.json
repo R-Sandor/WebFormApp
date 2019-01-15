@@ -2,7 +2,8 @@
   "name": "webFormApp",
   "version": "0.0.0",
   "dependencies": {
-    "body-parser": "^1.18.3"
+    "body-parser": "^1.18.3",
+    "mongodb": "2.2.33"
   },
   "scripts": {
     "test": "gulp test"
