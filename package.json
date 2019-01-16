@@ -3,7 +3,8 @@
   "version": "0.0.0",
   "dependencies": {
     "body-parser": "^1.18.3",
-    "mongodb": "2.2.33"
+    "mongodb": "2.2.33",
+    "mongoose": "^5.4.4"
   },
   "scripts": {
     "test": "gulp test"
